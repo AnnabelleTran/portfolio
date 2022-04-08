@@ -99,21 +99,28 @@ html{
         margin-right: 5vw;
         justify-content: center;
     }
-    .projects div{
+    .projects a{
         background-color: rgb(216, 166, 2);
         border-radius: 2.5vw;
-        height: 11vw;
-        width: 9.5vw;
+        height: 10.5vw;
+        width: 10vw;
         padding: 1vw 1.5vw;
         text-align: center;
         font-size: 1.25vw;   
         margin: 1.5vw 3vw;
         font-family: 'Inter', sans-serif;
         font-family: 'Readex Pro', sans-serif;
-    }
-    .projects p{
-        text-decoration: underline white;
+        text-decoration: underline;
         color: black;
+    }
+    .projects a:hover{
+        background-color: rgb(255, 221, 67);
+    }
+    .projects a img{
+        height: 8.5vw;
+        width: 8.5vw;
+        padding-top: .5vw;
+        border-radius: 1.5vw;
     }
 .top{
     text-align: center;
@@ -123,7 +130,7 @@ html{
     font-size: 1.5vw;
 
 }
-    .projects a{
+    /* .projects a{
         background-color: rgb(31, 31, 31);
         color: white;
         text-decoration: none;
@@ -140,4 +147,4 @@ html{
         background-color: gray;
         color: black;
 
-    }
+    } */
