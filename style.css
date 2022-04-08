@@ -117,10 +117,14 @@ html{
         background-color: rgb(255, 221, 67);
     }
     .projects a img{
-        height: 8.5vw;
-        width: 8.5vw;
+        height: 8vw;
+        width: 8vw;
         padding-top: .5vw;
         border-radius: 1.5vw;
+    }
+    .projects a:hover img{
+        height: 8.5vw;
+        width: 8.5vw;
     }
 .top{
     text-align: center;
