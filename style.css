@@ -100,7 +100,7 @@ html{
         justify-content: center;
     }
     .projects a{
-        background-color: rgb(216, 166, 2);
+        background-color: rgb(255, 221, 67);
         border-radius: 2.5vw;
         height: 10.5vw;
         width: 10vw;
@@ -114,7 +114,7 @@ html{
         color: black;
     }
     .projects a:hover{
-        background-color: rgb(255, 221, 67);
+        background-color: rgb(216, 166, 2);
     }
     .projects a img{
         height: 8vw;
@@ -133,6 +133,36 @@ html{
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-size: 1.5vw;
 
+}
+#resume{
+    background-color: rgb(255, 221, 67);
+    border-radius: 2.5vw;
+    height: 10.5vw;
+    width: 30vw;
+    padding: 1vw 1.5vw;
+    text-align: center;
+    font-size: 1.25vw;   
+    margin: 1.5vw 3vw;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+#resume p{
+    color: black;
+}
+#resume img{
+    height: 8vw;
+    width: 15vw;
+    padding-top: .5vw;
+    border-radius: 1.5vw;
+}
+#resume:hover{
+    background-color: rgb(216, 166, 2);
+}
+#resume:hover img{
+    height: 8.5vw;
+    width: 15.5vw;
 }
     /* .projects a{
         background-color: rgb(31, 31, 31);
